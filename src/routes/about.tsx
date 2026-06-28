@@ -65,12 +65,12 @@ function AboutPage() {
 
         {/* Story */}
         <section className="py-24 grid md:grid-cols-12 gap-12 border-b border-border">
-          <div className="md:col-span-5">
+          <div className="md:col-span-3">
             <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground mb-6">
               Vår historia
             </h2>
           </div>
-          <div className="md:col-span-7 space-y-6">
+          <div className="md:col-span-6 space-y-6">
             <p className="text-xl font-medium leading-relaxed">
               Norrköpings Rörinstallationer AB är ett auktoriserat VVS-företag med bas på Fredriksdalsgatan 25 i Norrköping. Vi har byggt vårt rykte på yrkesstolthet, punktlighet och ett genuint intresse för hantverket.
             </p>
@@ -82,12 +82,12 @@ function AboutPage() {
 
         {/* Values */}
         <section className="py-24 grid md:grid-cols-12 gap-12 border-b border-border">
-          <div className="md:col-span-5">
+          <div className="md:col-span-3">
             <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground mb-6">
               Så arbetar vi
             </h2>
           </div>
-          <div className="md:col-span-7 grid sm:grid-cols-2 gap-8">
+          <div className="md:col-span-6 grid sm:grid-cols-2 gap-8">
             {[
               {
                 title: "Tydlighet",
