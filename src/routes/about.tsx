@@ -116,12 +116,12 @@ function AboutPage() {
 
         {/* Coverage */}
         <section className="py-24 grid md:grid-cols-12 gap-12 border-b border-border">
-          <div className="md:col-span-5">
+          <div className="md:col-span-3">
             <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground mb-6">
               Vårt upptagningsområde
             </h2>
           </div>
-          <div className="md:col-span-7 space-y-6">
+          <div className="md:col-span-6 space-y-6">
             <p className="text-xl font-medium leading-relaxed">
               Vi arbetar primärt i Norrköping med omnejd, men tar oss an uppdrag i hela Östergötland vid större projekt.
             </p>
@@ -133,12 +133,12 @@ function AboutPage() {
 
         {/* Certifications */}
         <section className="py-24 grid md:grid-cols-12 gap-12 border-b border-border">
-          <div className="md:col-span-5">
+          <div className="md:col-span-3">
             <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground mb-6">
               Certifieringar & försäkringar
             </h2>
           </div>
-          <div className="md:col-span-7 space-y-4">
+          <div className="md:col-span-6 space-y-4">
             {[
               "Auktoriserat VVS-företag",
               "Säker Vatten-certifierad",
