@@ -21,18 +21,27 @@ function Index() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex flex-col leading-none">
+          <Link to="/" className="flex flex-col leading-none hover:opacity-80 transition-opacity">
             <span className="font-black text-lg tracking-tighter uppercase">Norrköpings Rör</span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
               Installationer AB
             </span>
+          </Link>
+          <div className="flex items-center gap-6">
+            <Link
+              to="/about"
+              activeProps={{ className: "font-bold" }}
+              className="text-sm tracking-tight hover:text-primary transition-colors"
+            >
+              Om oss
+            </Link>
+            <a
+              href="tel:0114004410"
+              className="bg-foreground text-background px-4 py-2 text-sm font-bold tracking-tight hover:bg-primary transition-colors"
+            >
+              011-400 44 10
+            </a>
           </div>
-          <a
-            href="tel:0114004410"
-            className="bg-foreground text-background px-4 py-2 text-sm font-bold tracking-tight hover:bg-primary transition-colors"
-          >
-            011-400 44 10
-          </a>
         </div>
       </nav>
 
