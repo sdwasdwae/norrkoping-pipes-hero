@@ -172,6 +172,20 @@ function Index() {
           </div>
         </section>
 
+        {/* About CTA */}
+        <section className="py-24 text-center border-t border-border space-y-6">
+          <h2 className="text-3xl md:text-4xl font-black tracking-tight">Lär känna oss bättre</h2>
+          <p className="text-muted-foreground max-w-[50ch] mx-auto">
+            Vill du veta mer om vårt företag, våra certifieringar och hur vi arbetar?
+          </p>
+          <Link
+            to="/about"
+            className="inline-block border-2 border-foreground bg-background px-8 py-4 text-lg font-bold tracking-tight hover:bg-foreground hover:text-background transition-colors mt-2"
+          >
+            Om oss
+          </Link>
+        </section>
+
         {/* Footer */}
         <footer className="pt-12 pb-24 border-t-2 border-foreground">
           <div className="grid md:grid-cols-3 gap-12">
